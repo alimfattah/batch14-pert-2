@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulir pendaftaran prakerja</h1>
+    
+<form>
+<label for="nama" aria-placeholder="Masukan Nama">nama:</label>
+<input type="text" id="nama" name="nama" required /> <br/>
+
+<label for="tanggal_lahir">tanggal lahir:</label>
+<input type="date" id="tanggal_lahir" name="tanggal lahir" /> <br/>
+
+
+<label for="Sex">Jenis Kelamin:</label>
+<input type="radio" name="Sex" value="Laki" /> Laki 
+<input type="radio" name="Sex" value="Perempuan" /> Perempuan <br/>
+
+
+<label for="nama_pelatihan">Nama Pelatihan:</label>
+<input type="checkbox" name="nama Pelatihan[]" value="HTML" /> HTML <br/>
+<input type="checkbox" name="nama Pelatihan[]" value="CSS" /> CSS <br/>
+<input type="checkbox" name="nama Pelatihan[]" value="JAVASCRPT" /> JAVASCRPT <br/>
+<input type="checkbox" name="Sex" value="Perempuan" /> Perempuan <br/>
+
+<label for="jumlah_keluarga">jumlah jumlah_keluarga</label>
+<input type="number" id="jumlah_keluarga" name="jumlah_keluarga" /> <br/>
+
+<label for="email">E-mail=</label>
+<input type="email" id="email" name="email" /> <br/>
+
+<label for="kewarganegaraan">kewarganegaraan</label>
+<select id="kewarganegaraan" name="kewarganegaraan" /> <br/>
+<option value="" disabled selected></option>
+<option value="Indonesia">Indonesia</option>
+</select> <br/>
+
+<label for="foto_profil">foto_profil</label>
+<input type="file" name="foto_profil" id="foto_profil" accept="image/*"/> <br/>
+
+<label for="Alamat" style="vertical-align: top;"> Alamat</label>
+<textarea name="Alamat" id="Alamat" cols="30" rows="10"></textarea>
+<br><br/>
+
+<input type="hidden" name="rahasia" id="rahasia" value="rahasia">
+
+<input type="submit" value="daftar"/>
+<input type="reset" value="Hapus input"/>
+
+
+</form>
+
+
+</body>
+</html>
